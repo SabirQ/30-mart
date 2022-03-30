@@ -1,0 +1,41 @@
+table{
+    align-self: center;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+                
+  }
+tr:nth-child(2n-2){
+
+    background-color:white;    
+}
+
+tr:nth-child(2n-1){
+
+    background-color: whitesmoke    
+}
+
+td,th{
+    width: 300px;
+    height: 45px;
+    text-align: center;   
+}
+th:nth-child(2n-1){
+
+    background-color: rgb(44, 76, 100);
+}
+th:nth-child(2n-2){
+
+    background-color:rgb(82, 207, 166)
+}
+th{
+    color: white;
+}
+#h1{
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: rgb(77, 141, 238);
+}
+
